@@ -37,12 +37,11 @@ laravel-project/
 ├── resources/
 │   ├── views/
 │   │   ├── layouts/
-│   │   │   └── app.blade.php
+│   │   │   └── master.blade.php
 │   │   ├── partials/
 │   │   │   ├── header.blade.php
 │   │   │   └── footer.blade.php
-│   │   ├── contact/
-│   │   │   ├── form.blade.php
+│   │   ├── contact/│   │   │   
 │   │   │   └── confirmation.blade.php
         ├── contact.blade.php
         ├── index.blade.php
