@@ -3,6 +3,11 @@
 @section('content')
 <div class="card">
     <div class="card-header">Submission Confirmation</div>
+    @if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+    @endif
     <div class="card-body">
         <p><strong>Name:</strong> {{ $contact->name }}</p>
         <p><strong>Email:</strong> {{ $contact->email }}</p>
