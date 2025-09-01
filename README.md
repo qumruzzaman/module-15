@@ -41,7 +41,7 @@ laravel-project/
 │   │   ├── partials/
 │   │   │   ├── header.blade.php
 │   │   │   └── footer.blade.php
-│   │   ├── contact/│   │   │   
+│   │   ├── contact/
 │   │   │   └── confirmation.blade.php
         ├── contact.blade.php
         ├── index.blade.php
